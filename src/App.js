@@ -1,5 +1,6 @@
 import "./App.css";
 import photo from "./1.jpg";
+import "./style.css";
 function App() {
   return (
     <div className="App">
@@ -23,11 +24,11 @@ function App() {
 
         <br />
 
-        <img src={photo} alt="image in source" />
+        <img src={photo} alt="in source" />
 
         <br />
 
-        <img src="/image-in-public.jpg" alt="image in public " />
+        <img src="/image-in-public.jpg" alt="in public " />
       </div>
 
       <video width="320" height="240" controls>
